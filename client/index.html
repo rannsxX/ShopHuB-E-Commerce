@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="ShopHub - Modern E-commerce Storefront">
+
+    <title>ShopHub | E-commerce Store</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="container navbar">
+
+            <a href="/" class="logo">
+                Shop<span>Hub</span>
+            </a>
+
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search products...">
+
+                <button id="searchButton">
+                    Search
+                </button>
+            </div>
+
+            <button class="cart-button" id="cartButton">
+                🛒 Cart
+                <span id="cartCount">0</span>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- Hero -->
+    <section class="hero">
+
+        <div class="container hero-content">
+
+            <div>
+                <p class="hero-label">
+                    WELCOME TO SHOPHUB
+                </p>
+
+                <h1>
+                    Shop smarter.<br>
+                    Live better.
+                </h1>
+
+                <p class="hero-description">
+                    Discover quality products at simple and transparent prices.
+                </p>
+
+                <button class="primary-button" onclick="scrollToProducts()">
+                    Shop Now
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Products -->
+    <main class="container products-section">
+
+        <div class="section-header">
+
+            <div>
+                <p class="section-label">
+                    OUR COLLECTION
+                </p>
+
+                <h2>
+                    Featured Products
+                </h2>
+            </div>
+
+            <p id="productCount">
+                Loading products...
+            </p>
+
+        </div>
+
+
+        <!-- Categories -->
+        <div class="category-list" id="categoryList">
+            <button class="category-button active" data-category="All">
+                All
+            </button>
+
+            <button class="category-button" data-category="Electronics">
+                Electronics
+            </button>
+
+            <button class="category-button" data-category="Fashion">
+                Fashion
+            </button>
+
+            <button class="category-button" data-category="Home">
+                Home
+            </button>
+
+            <button class="category-button" data-category="Accessories">
+                Accessories
+            </button>
+        </div>
+
+
+        <!-- Product Grid -->
+        <div class="product-grid" id="productGrid">
+            <p class="loading">
+                Loading products...
+            </p>
+        </div>
+
+    </main>
+
+
+    <!-- Cart Drawer -->
+    <aside class="cart-drawer" id="cartDrawer">
+
+        <div class="cart-header">
+
+            <h2>Your Cart</h2>
+
+            <button id="closeCart" class="close-button">
+                ×
+            </button>
+
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <p class="empty-cart">
+                Your cart is empty.
+            </p>
+        </div>
+
+        <div class="cart-footer">
+
+            <div class="cart-total">
+                <span>Total</span>
+
+                <strong id="cartTotal">
+                    Rs. 0
+                </strong>
+            </div>
+
+            <button class="checkout-button">
+                Checkout
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <div class="overlay" id="overlay"></div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div>
+                <strong>ShopHub</strong>
+
+                <p>
+                    A modern e-commerce storefront.
+                </p>
+            </div>
+
+            <p>
+                © 2026 ShopHub. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="/js/app.js"></script>
+
+</body>
+
+</html>
