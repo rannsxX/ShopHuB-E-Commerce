@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Ranjash K. Shah
 
 ### 💻 Junior Software Developer 
-<img align="center" alt="coding" width="877" src="https://user-images.githubusercontent.com/74038190/212749171-b84692a8-2b04-4e3b-93ca-ac14705da224.gif">
+<img align="center" alt="coding" width="999" src="https://user-images.githubusercontent.com/74038190/212749171-b84692a8-2b04-4e3b-93ca-ac14705da224.gif">
 
 I build **practical, responsive, and database-driven web applications** using modern development technologies.
 
@@ -35,9 +35,9 @@ Looking for a **Junior Software Developer / Software Development Internship** wh
 
 
 
-                                                     Snake Journey
 
-<h3 align="center">🐍 Contribution Activity</h3>
+
+  <h3 align="center">🐍 Contribution Activity</h3>
 
 <p align="center">
   <picture>
